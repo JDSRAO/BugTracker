@@ -1,6 +1,9 @@
 # BugTracker
 
+An angular 5 poc project using HTML5 localStorage data persistence
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
 
 ## Development server
 
