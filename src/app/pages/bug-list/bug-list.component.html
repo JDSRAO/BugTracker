@@ -23,7 +23,7 @@
   <ol>
     <li *ngFor="let bug of (bugs | sort:bugSortAttr:bugSortDescending)" [ngClass]="{'closed' : bug.isClosed}">
       <span class="bugname" (click)="toggleBug(bug)">{{bug.name | trimText}}</span>
-      <div class="datetime">{{bug.createdAt | date}}</div>
+      <div class="datetime">{{bug.createdAt | timeAgo}}</div>
     </li>
   </ol>
   <input type="button" value="Remove Closed" (click)="OnRemoveCloasedClick()"> 
